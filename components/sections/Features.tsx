@@ -278,7 +278,7 @@ export default function Features() {
           <div className="mt-6 text-sm text-navy-500">
             <span className="trust-badge mr-2">✓ No Monthly Fees</span>
             <span className="trust-badge mr-2">✓ Lifetime Updates</span>
-            <span className="trust-badge">✓ Custom Implementation</span>
+            <span className="trust-badge mt-2 sm:mt-0">✓ Custom Implementation</span>
           </div>
         </div>
 

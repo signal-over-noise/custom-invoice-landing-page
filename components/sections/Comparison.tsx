@@ -43,7 +43,7 @@ export default function Comparison() {
     {
       category: 'Design Freedom',
       items: [
-        { feature: 'Unlimited Custom Designs', us: true, them: false },
+        { feature: 'Custom Designs', us: true, them: false },
         { feature: 'Pixel-Perfect Control', us: true, them: false },
         { feature: 'No Design Restrictions', us: true, them: false },
         { feature: 'Brand Color Matching', us: true, them: 'limited' },
@@ -136,19 +136,19 @@ export default function Comparison() {
                 <div className="space-y-4">
                   <div className="flex items-center justify-between py-3 border-b border-white/20">
                     <span className="text-success-100">One-time investment</span>
-                    <span className="text-2xl font-bold">$X97*</span>
+                    <span className="text-2xl font-bold">$X100*</span>
                   </div>
                   <div className="flex items-center justify-between py-3 border-b border-white/20">
                     <span className="text-success-100">Year 1 total</span>
-                    <span className="text-xl font-semibold">$X97</span>
+                    <span className="text-xl font-semibold">$X100</span>
                   </div>
                   <div className="flex items-center justify-between py-3 border-b border-white/20">
                     <span className="text-success-100">Year 2 total</span>
-                    <span className="text-xl font-semibold">$X97</span>
+                    <span className="text-xl font-semibold">$X100</span>
                   </div>
                   <div className="flex items-center justify-between py-3">
                     <span className="text-success-100">Lifetime cost</span>
-                    <span className="text-xl font-semibold">$X97</span>
+                    <span className="text-xl font-semibold">$X100</span>
                   </div>
                 </div>
 

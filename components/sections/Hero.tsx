@@ -1,6 +1,7 @@
 'use client'
 
 import { ArrowRight, CheckCircle, X } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -34,9 +35,21 @@ export default function Hero() {
           {/* Social Proof Placeholder */}
           <div className="flex items-center justify-center gap-2 mb-10 animate-fade-up [animation-delay:0.2s]">
             <div className="flex -space-x-2">
-              {[1,2,3,4,5].map((i) => (
-                <div key={i} className="w-8 h-8 rounded-full bg-gradient-to-br from-trust-400 to-success-400 border-2 border-white" />
-              ))}
+                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-trust-400 to-success-400 border-2 border-white overflow-hidden">
+                    <Image src="/images/image-1.png" alt='company logo' width={100} height={100} className='object-fill'/>
+                </div>
+                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-trust-400 to-success-400 border-2 border-white overflow-hidden">
+                    <Image src="/images/image-2.jpg" alt='company logo' width={100} height={100} className='object-fill'/>
+                </div>
+                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-trust-400 to-success-400 border-2 border-white overflow-hidden">
+                    <Image src="/images/image-3.png" alt='company logo' width={100} height={100} className='object-fill'/>
+                </div>
+                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-trust-400 to-success-400 border-2 border-white overflow-hidden">
+                    <Image src="/images/image-4.jpg" alt='company logo' width={100} height={100} className='object-fill'/>
+                </div>
+                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-trust-400 to-success-400 border-2 border-white overflow-hidden">
+                    <Image src="/images/image-5.png" alt='company logo' width={100} height={100} className='object-fill'/>
+                </div>
             </div>
             <span className="text-sm text-navy-600 ml-3">
               Join <strong className="text-navy-900">500+</strong> businesses who escaped subscription hell
@@ -106,7 +119,7 @@ export default function Hero() {
             <div className="text-sm text-navy-500">
               <span className="trust-badge mr-2">✓ Instant Access</span>
               <span className="trust-badge mr-2">✓ 30-Day Guarantee</span>
-              <span className="trust-badge">✓ Lifetime Updates</span>
+              <span className="trust-badge mt-2 sm:mt-0">✓ Lifetime Updates</span>
             </div>
             
           </div>
